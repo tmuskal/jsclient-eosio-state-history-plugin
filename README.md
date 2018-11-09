@@ -26,3 +26,13 @@ or compile and run https://github.com/EOSIO/eos/tree/state-history-plugin/
     cleos set abi helloworld ./contracts/helloworld/helloworld.abi
     cleos push action helloworld hi [1234] -p helloworld
 ```
+
+Outputs:
+
+```
+setabi for helloworld - updating Serializer
+got helloworld.hi.someevent with metadata { number: '1234' } { version: '1.3',
+  etype: 'someevent',
+  number: '1234',
+  field1: '321' }
+```
