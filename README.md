@@ -16,10 +16,11 @@ or compile and run https://github.com/EOSIO/eos/tree/state-history-plugin/
     npm start
 ```
 
-### 
+### Do some actions
 
-* compile helloworld contract in contracts/helloworld
+* Compile helloworld contract in contracts/helloworld (using eosio-cdt)
 
+* Push contract and invoke and action
 ```
     cleos set code helloworld ./contracts/helloworld/helloworld.wasm
     cleos set abi helloworld ./contracts/helloworld/helloworld.abi
