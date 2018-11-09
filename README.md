@@ -18,7 +18,7 @@ or compile and run https://github.com/EOSIO/eos/tree/state-history-plugin/
 
 ### Do some actions
 
-* Compile helloworld contract in contracts/helloworld (using eosio-cdt)
+* Create the "helloworld" account. Compile helloworld contract in contracts/helloworld (using eosio-cdt)
 
 * Push contract and invoke and action
 ```
